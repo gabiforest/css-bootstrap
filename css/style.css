@@ -25,3 +25,9 @@
     text-decoration: none;
     color: #1b1a1ab7;
 }    
+
+@media (max-widht: 768px){
+    .listaFoot{
+        font-size: small;
+    }
+}
