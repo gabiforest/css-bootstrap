@@ -26,8 +26,13 @@
     color: #1b1a1ab7;
 }    
 
+
 @media (max-widht: 768px){
     .listaFoot{
         font-size: small;
+    }
+    .image img{
+        width: 200px;
+        height: 130px;
     }
 }
