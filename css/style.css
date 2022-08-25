@@ -7,6 +7,9 @@
     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
     background-blend-mode: multiply,multiply;
 }
+.fondo{
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
 .main a{
     color: #141619;
     text-decoration: none;
@@ -28,14 +31,17 @@
 
 @media (max-width: 768px){
     .listaFoot{
-        font-size: small;
+        font-size: xx-small;
+    }
+    .listaFoot li{
+        font-size: xx-small;
     }
 }
 @media (max-width: 500px){
     .tabla{
         display:none;
     }
-    table{
-        font-size: xx-small;
+    .hFoot{
+        font-size: x-small;
     }
 }
