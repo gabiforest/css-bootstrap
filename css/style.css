@@ -27,7 +27,8 @@
 .footer a{
     text-decoration: none;
     color: #1b1a1ab7;
-}    
+} 
+
 
 @media (max-width: 768px){
     .listaFoot{
@@ -45,11 +46,6 @@
         font-size: x-small;
     }
     .video{
-        display: none;
-    }
-}
-@media (min-width: 500px){
-    .linkVideo{
         display: none;
     }
 }
