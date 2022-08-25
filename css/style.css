@@ -26,13 +26,16 @@
     color: #1b1a1ab7;
 }    
 
-
-@media (max-widht: 768px){
+@media (max-width: 768px){
     .listaFoot{
         font-size: small;
     }
-    .image img{
-        width: 200px;
-        height: 130px;
+}
+@media (max-width: 500px){
+    .tabla{
+        display:none;
+    }
+    table{
+        font-size: xx-small;
     }
 }
