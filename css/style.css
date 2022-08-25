@@ -44,4 +44,12 @@
     .hFoot{
         font-size: x-small;
     }
+    .video{
+        display: none;
+    }
+}
+@media (min-width: 500px){
+    .linkVideo{
+        display: none;
+    }
 }
